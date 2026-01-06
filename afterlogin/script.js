@@ -902,7 +902,7 @@ function showMap(lat, lon) {
 // ============================================================================
 
 // Configuration
-const BACKEND_URL = 'http://localhost:5000'; // Local backend
+const BACKEND_URL = 'https://traffic-optimization-backend.onrender.com'; // Local backend
 let isSystemActive = false;
 let emergencyMode = false;
 let trafficDataPolling = null;
@@ -1492,5 +1492,6 @@ function initializeTrafficSystem() {
         }
     });
 }
+
 
 
